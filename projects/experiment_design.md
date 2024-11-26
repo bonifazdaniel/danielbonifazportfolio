@@ -14,4 +14,4 @@ Utilized statistical methods to design experiments and improve success rates.
 ## Results
 Increased experiment success rates by 20%.
 
-![Experiment Data](/danielbonifazportfolio/assets/sexperiment_data.csv)
+![Experiment Data](https://github.com/bonifazdaniel/danielbonifazportfolio/blob/main/assets/experiment_data.csv)
