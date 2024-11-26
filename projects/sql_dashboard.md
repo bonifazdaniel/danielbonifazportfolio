@@ -14,4 +14,5 @@ This project focuses on building a dashboard for analyzing business metrics usin
 ## Results
 Delivered an interactive dashboard summarizing key performance indicators (KPIs).
 
-![SQL Dashboard Example](https://github.com/bonifazdaniel/danielbonifazportfolio/blob/main/assets/sql_dashboard.png)
+![SQL Dashboard](../assets/sql_dashboard.png)
+
