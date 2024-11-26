@@ -1,4 +1,3 @@
-
 # SQL Insights Dashboard
 
 ## Overview

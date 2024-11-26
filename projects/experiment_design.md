@@ -1,4 +1,3 @@
-
 # Experiment Design
 
 ## Overview

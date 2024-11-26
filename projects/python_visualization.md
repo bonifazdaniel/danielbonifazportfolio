@@ -1,4 +1,3 @@
-
 # Data Visualization in Python
 
 ## Overview
