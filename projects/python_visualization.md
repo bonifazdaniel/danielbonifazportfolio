@@ -15,4 +15,4 @@ This project demonstrates advanced data visualization techniques using Python li
 ## Results
 Generated insights through visual analysis, enabling better decision-making in the studied dataset.
 
-![Python Visualization Example](/danielbonifazportfolio/assets/python_visualization.png)
+![Python Visualization Example](https://github.com/bonifazdaniel/danielbonifazportfolio/blob/main/assets/python_visualization.png)
