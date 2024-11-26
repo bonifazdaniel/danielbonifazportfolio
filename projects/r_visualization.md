@@ -14,4 +14,4 @@ This project demonstrates the creation of advanced data visualizations using R w
 ## Results
 The visualizations enabled a clear understanding of data trends and provided actionable insights.
 
-![R Visualization Example](/danielbonifazportfolio/assets/r_visualization.png)
+![R Visualization Example](https://github.com/bonifazdaniel/danielbonifazportfolio/blob/main/assets/r_visualization.png)
