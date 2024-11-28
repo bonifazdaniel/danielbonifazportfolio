@@ -32,7 +32,7 @@ main {
     
 /* Estilos adicionales para la imagen de perfil */
 .profile-image {
-    width: 100%; /* Escala la imagen al 100% del contenedor padre */
+    width: 50%; /* Escala la imagen al 100% del contenedor padre */
     max-width: 250px; /* Tamaño máximo ahora es 250px */
     height: auto; /* Mantiene la proporción de la imagen */
 }
