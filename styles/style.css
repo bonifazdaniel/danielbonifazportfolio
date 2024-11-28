@@ -5,42 +5,50 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: #333;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
+
 header nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 1rem;
 }
+
 header nav a:hover {
     text-decoration: underline;
 }
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
 }
+
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 1rem;
-    
-/* Estilos adicionales para la imagen de perfil */
+}
+
+/* Estilos para la imagen de perfil */
 .profile-image {
-    width: 50%; /* Escala la imagen al 100% del contenedor padre */
-    max-width: 150px; /* Tamaño máximo ahora es 250px */
+    width: 100%; /* Escala la imagen al 100% del contenedor */
+    max-width: 250px; /* Tamaño máximo razonable para pantallas grandes */
     height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que no tenga espacio extra como un elemento inline */
+    margin: 0 auto; /* Centra la imagen dentro de su contenedor */
 }
 
 /* Media query para dispositivos con pantallas pequeñas */
 @media (max-width: 600px) {
     .profile-image {
-        max-width: 100px; /* Tamaño máximo en dispositivos móviles ahora es 150px */
+        max-width: 80%; /* La imagen ocupará hasta el 80% del ancho de la pantalla */
+        height: auto; /* Mantiene la proporción */
     }
 }
-
