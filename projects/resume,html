@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Bonifaz-Calvo Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Daniel Bonifaz-Calvo's Portfolio</h1>
+        <img src="assets/profile_image.png" alt="Daniel Bonifaz-Calvo" class="profile-image">
+        <nav>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="resume.html">Resume</a> <!-- Nuevo enlace a la página Resume -->
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Hello! My name is Daniel Bonifaz-Calvo Ibarrola, a professional engineer with dual degrees in Computer Engineering and Industrial Systems. I’m passionate about Python, R, data analysis, SQL, and experiment design.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Daniel Bonifaz-Calvo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
