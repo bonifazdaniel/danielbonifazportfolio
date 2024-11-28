@@ -33,14 +33,14 @@ main {
 /* Estilos adicionales para la imagen de perfil */
 .profile-image {
     width: 50%; /* Escala la imagen al 100% del contenedor padre */
-    max-width: 250px; /* Tamaño máximo ahora es 250px */
+    max-width: 150px; /* Tamaño máximo ahora es 250px */
     height: auto; /* Mantiene la proporción de la imagen */
 }
 
 /* Media query para dispositivos con pantallas pequeñas */
 @media (max-width: 600px) {
     .profile-image {
-        max-width: 150px; /* Tamaño máximo en dispositivos móviles ahora es 150px */
+        max-width: 100px; /* Tamaño máximo en dispositivos móviles ahora es 150px */
     }
 }
 
