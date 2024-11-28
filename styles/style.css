@@ -34,13 +34,13 @@ main {
 /* Estilos adicionales para la imagen de perfil */
 .profile-image {
     width: 100%; /* Escala la imagen al 100% del contenedor padre */
-    max-width: 200px; /* Tamaño máximo para no distorsionarse */
+    max-width: 400px; /* Tamaño máximo para no distorsionarse */
     height: auto; /* Mantiene la proporción de la imagen */
 }
 
 /* Media query para dispositivos con pantallas pequeñas */
 @media (max-width: 600px) {
     .profile-image {
-        max-width: 120px; /* Hace la imagen más pequeña en dispositivos móviles */
+        max-width: 240px; /* Hace la imagen más pequeña en dispositivos móviles */
     }
 }
