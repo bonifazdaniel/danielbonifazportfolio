@@ -87,3 +87,20 @@ footer {
     font-size: 0.9rem;
     border-top: 1px solid #ddd;
 }
+
+/* Button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color de texto */
+    text-decoration: none; /* No subrayado */
+    text-align: center;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.button:hover {
+    background-color: #45a049; /* Color al pasar el mouse */
+}
+
