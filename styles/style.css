@@ -15,8 +15,9 @@ h1, h2, h3 {
 
 p {
     line-height: 1.6;
-    margin: 0;
+    margin-bottom: 1em;
     color: #555;
+    text-align: justify;
 }
 
 a {
@@ -103,4 +104,3 @@ footer {
 .button:hover {
     background-color: #45a049; /* Color al pasar el mouse */
 }
-
