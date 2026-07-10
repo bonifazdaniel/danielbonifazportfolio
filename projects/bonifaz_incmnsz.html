@@ -80,6 +80,8 @@
     .btn-primario:hover { background: #641832; }
     .btn-secundario { background: #fff; color: var(--vino); border: 1.5px solid var(--vino); }
     .btn-secundario:hover { background: #f6ecf0; }
+    .btn-descarga { background: #1f7a4d; color: #fff; }
+    .btn-descarga:hover { background: #17603c; }
 
     /* Contenido */
     main {
@@ -173,9 +175,10 @@
   <header class="hero">
     <span class="etiqueta">R · Shiny · Análisis de datos clínicos</span>
     <h1>Bonifaz-INCMNSZ</h1>
-    <p class="sub">Asistente de análisis de datos paso a paso para investigadores.</p>
+    <p class="sub">Asistente de análisis de datos paso a paso para investigadores sin experiencia en programación.</p>
     <div class="botones">
       <a class="btn-primario" href="https://github.com/bonifazdaniel/Bonifaz-INCMNSZ" target="_blank" rel="noopener">Ver en GitHub</a>
+      <a class="btn-descarga" href="https://github.com/bonifazdaniel/danielbonifazportfolio/raw/main/assets/Bonifaz-INCMNSZ.zip" download>Descargar (.zip)</a>
       <a class="btn-secundario" href="../projects.html">← Volver a Proyectos</a>
     </div>
   </header>
@@ -189,8 +192,9 @@
         <strong>Bonifaz-INCMNSZ</strong> es una aplicación web construida en R con Shiny para el
         Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán. Guía al investigador,
         pregunta tras pregunta, a lo largo de un asistente de siete pasos —desde cargar un archivo
-        hasta descargar un reporte— para que los investigadores puedan limpiar, analizar y graficar
-        sus datos. Está orientada a investigación clínica y de ciencias básicas.
+        hasta descargar un reporte— para que personas <em>sin conocimientos de programación</em>
+        puedan limpiar, analizar y graficar sus datos. Está orientada a investigación clínica y de
+        ciencias básicas, con ejemplos pensados para un modelo murino de artritis reumatoide.
       </p>
     </section>
 
@@ -227,7 +231,7 @@
 
     <!-- Tecnologías -->
     <section>
-      <h2>Tecnologías utilizadas</h2>
+      <h2>Tecnologías</h2>
       <div class="tags">
         <span class="tag">R</span>
         <span class="tag">Shiny</span>
@@ -258,20 +262,17 @@
       <div class="capturas">
         <!-- Para mostrar una imagen, coloca el archivo en la carpeta assets/ y
              reemplaza el contenido del div por: <img src="../assets/bonifaz_1.png" alt="Captura 1"> -->
+        <!-- EJEMPLO CORRECTO: primero sube el archivo bonifaz_1.png a la carpeta assets/
+             del portafolio; la ruta ../assets/ sube un nivel desde projects/ -->
         <div class="captura"><img src="../assets/bonifaz_1.png" alt="Captura 1"></div>
-        <div class="captura"><img src="../assets/bonifaz_2.png" alt="Captura 2"></div>
-        <div class="captura"><img src="../assets/bonifaz_3.png" alt="Captura 3"></div>
-        <div class="captura"><img src="../assets/bonifaz_4.png" alt="Captura 4"></div>
-        <div class="captura"><img src="../assets/bonifaz_5.png" alt="Captura 5"></div>
-        <div class="captura"><img src="../assets/bonifaz_6.png" alt="Captura 6"></div>
-        <div class="captura"><img src="../assets/bonifaz_7.png" alt="Captura 7"></div>
+        <div class="captura">Coloca aquí una captura (assets/bonifaz_2.png)</div>
       </div>
     </section>
 
   </main>
 
   <footer>
-    © 2026 Daniel Bonifaz-Calvo. All rights reserved.
+    © 2024 Daniel Bonifaz-Calvo. All rights reserved.
   </footer>
 
 </body>
